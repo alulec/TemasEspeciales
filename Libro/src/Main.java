@@ -4,5 +4,12 @@ public class Main {
 
         miLibro.Leer();
         miLibro.Guardar();
+Calculadora cal= new Calculadora();
+cal.leerNum();
+cal.sumar();
+cal.resta();
+cal.multiplicar();
+cal.dividir();
+cal.mostrar();
     }
 }
